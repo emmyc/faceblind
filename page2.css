@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i,700,900|Yrsa:400,500,600,700&display=swap");
+
+@font-face {
+  font-family: PlanePensle;
+  src: url(fonts/PlainPensleBoldItalic.ttf);
+  font-weight: bold;
+}
+
+body {
+  font-family: PlanePensle;
+  font-weight: bold;
+  color: #05111a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 42px;
+}
+h2 {
+  font-family: "Yrsa", serif;
+}
+
+.lobster-main img {
+  max-width: 300px;
+}
+
+.button {
+  transition: 200ms ease all;
+  background: #05111a;
+  width: 80px;
+  color: white;
+  font-family: "Yrsa", serif;
+  font-size: 22px;
+  display: flex;
+  border-radius: 15px;
+  padding: 5px;
+  justify-content: center;
+}
+
+.button:hover {
+  cursor: pointer;
+  background: white;
+  color: #05111a;
+  border: 2px solid #05111a;
+}
+.tryagain {
+  font-family: PlanePensle !important;
+}
+.frame-2 {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#text-1 {
+  opacity: 0;
+}
+
+.all-lobsters {
+  left: 0;
+  right: 0;
+  display: none;
+  opacity: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  position: relative;
+  width: 1200px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.all-lobsters img {
+  max-width: 120px;
+  transition: 200ms ease all;
+}
+
+.all-lobsters img:hover {
+  cursor: pointer;
+  transition: 200ms ease all;
+  transform: scale(1.2);
+}
+
+.lobster {
+  /* position: absolute; */
+}
+
+.frame-3 {
+  display: none;
+  opacity: 0;
+  height: 800px;
+}
+/* #text-2 {
+  opacity: 0;
+}
+#subtext-2 {
+  opacity: 0;
+} */
+
+.response-1 {
+  opacity: 0;
+}
+
+#wrong-1,
+#wrong-2,
+#wrong-3 {
+  display: none;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0;
+}

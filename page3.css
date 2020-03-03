@@ -1,0 +1,61 @@
+.container {
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tv {
+  height: 550px;
+  width: 900px;
+  border-radius: 50px;
+  border: 6px solid #05111a;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 40px;
+}
+
+#tv-inner {
+  height: 500px;
+  width: 700px;
+  border-radius: 30px;
+  border: 6px solid #05111a;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  transition: all 0.3s ease;
+}
+
+#buttons:hover {
+  cursor: pointer;
+}
+
+#power {
+  transition: all 0.3s ease;
+  margin-top: 30px;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  border: 6px solid #05111a;
+}
+#power:hover {
+  background: #05111a;
+}
+
+#channel {
+  transition: all 0.3s ease;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  border: 6px solid #05111a;
+}
+
+#channel:hover {
+  background: #05111a;
+}
+
+/* TV ON-OFF */

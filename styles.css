@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i,700,900|Yrsa:400,500,600,700&display=swap");
+
+h1 {
+  font-family: "Yrsa", serif;
+  font-size: 3em;
+  margin-bottom: 5px;
+}
+
+body {
+  font-family: "Yrsa", serif;
+}
+p {
+  margin: 0px;
+}
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.marginLeft20 {
+  margin-right: 20px;
+}
+
+.title {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 330px;
+}
+
+.flex {
+  display: flex;
+}
+#subtitle {
+  margin-top: 2px;
+}
+
+#short-line {
+  border-top: 2px solid rgb(202, 202, 202, 0.5);
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+/* box! */
+#section-1 {
+  padding-top: 100px;
+  transition: all 0.8s ease-in-out;
+}
+
+#section-2 {
+  padding-top: 60px;
+}
+.box {
+  width: 500px;
+  height: 400px;
+  border: 6px solid black;
+  transition: all 0.8s ease;
+  border-radius: 5px;
+}
+
+#box-2 {
+  width: 800px;
+}
+#box-2:hover {
+  background-image: url(img/galaxy.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#box-1:hover {
+  background-color: black;
+  transition: all 0.8s ease;
+}
+
+/* EYES */
+
+.eyes {
+  margin: 300px 0px;
+  display: flex;
+}
+.eye {
+  cursor: pointer;
+  width: 150px;
+  height: 150px;
+  background-image: url(img/eye-sprite.png);
+  background-size: 1050px 150px;
+}
+
+body {
+  opacity: 1;
+  transition: 0.7s opacity;
+}
+
+body.fade {
+  opacity: 0;
+  transition: none;
+}
