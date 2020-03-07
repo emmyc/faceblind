@@ -72,8 +72,10 @@ function displayMessage() {
   } else if (numClicks === 2) {
     numClicks += 1;
     tl.to(".frame-3", { display: "flex", opacity: 1, duration: 0.5 });
-    document.getElementById("text-2").innerHTML = "Wrong #3";
-    document.getElementById("subtext-2").innerHTML = "Perhaps another day...";
+    document.getElementById("text-2").innerHTML =
+      "Ils semblent tous se mélanger, comme une mer de homards.";
+    document.getElementById("subtext-2").innerHTML =
+      "They all seem to blend together, like a sea of lobsters.";
   } else if (numClicks === 3) {
     numClicks += 1;
     tl.to(".frame-3", { display: "flex", opacity: 1, duration: 0.5 });
@@ -83,5 +85,6 @@ function displayMessage() {
     tl.to(".frame-3", { display: "flex", opacity: 1, duration: 0.5 });
     document.getElementById("text-2").innerHTML = "Correct";
     document.getElementById("subtext-2").innerHTML = "About time!";
+    document.getElementById("button-2").innerHTML = "home";
   }
 }

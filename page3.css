@@ -8,7 +8,7 @@
 .tv {
   height: 550px;
   width: 900px;
-  border-radius: 50px;
+  border-radius: 30px;
   border: 6px solid #05111a;
   display: flex;
   justify-content: center;
@@ -19,7 +19,7 @@
 #tv-inner {
   height: 500px;
   width: 700px;
-  border-radius: 30px;
+  border-radius: 50px;
   border: 6px solid #05111a;
 }
 

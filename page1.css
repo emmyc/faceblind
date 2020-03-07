@@ -45,6 +45,8 @@
   justify-content: center;
 }
 body {
+  opacity: 1;
+  transition: 1s opacity;
   background: white;
   color: black;
   display: flex;
@@ -52,6 +54,11 @@ body {
   justify-content: center;
   text-align: center;
   font-family: "Yrsa", serif;
+}
+
+body.fade {
+  opacity: 0;
+  transition: none;
 }
 
 #intro-text {
@@ -78,6 +85,7 @@ body {
 }
 
 #main {
+  margin-top: 200px;
   display: none;
   position: relative;
   align-items: center;
@@ -99,5 +107,9 @@ body {
   opacity: 0;
 }
 #body4 {
+  opacity: 0;
+}
+
+#author {
   opacity: 0;
 }

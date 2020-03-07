@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i,700,900|Yrsa:400,500,600,700&display=swap");
+
+body {
+  background: black;
+  font-family: "Yrsa", serif;
+  color: white;
+  transition: all 300ms ease;
+}
+
+.guy img {
+  width: 250px;
+  height: auto;
+  position: absolute;
+  top: 300px;
+  right: 400px;
+  cursor: pointer;
+}
+
+.mirror img {
+  width: 500px;
+  height: auto;
+  position: absolute;
+  right: 450px;
+  top: 90px;
+  z-index: -5;
+}
+#mirror-img {
+  filter: invert(1);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.body {
+  display: flex;
+  position: relative;
+}
+.body img {
+  width: 230px;
+  height: auto;
+  position: absolute;
+  top: 290px;
+  left: -10px;
+}
+
+.scribble {
+  position: relative;
+}
+
+.scribble img {
+  width: 230px;
+  height: auto;
+  z-index: -10;
+  left: 0px;
+  top: 195px;
+  position: absolute;
+}
+
+#scribble {
+  display: none;
+}

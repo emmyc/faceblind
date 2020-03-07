@@ -12,7 +12,7 @@ function animate() {
 
   tl.from("#text1", { opacity: 0, duration: 0.5 });
   tl.to({}, 0.8, {});
-  tl.to("#text1", { opacity: 0.5 });
+  tl.to("#text1", { opacity: 0 });
 
   tl.to("#text1", { display: "none" });
   tl.to("#text2", { display: "block" });
@@ -21,6 +21,7 @@ function animate() {
   tl.to("#text2", { opacity: 0, duration: 0, display: "none", duration: 0.5 });
 
   tl.to(".face", { display: "block", opacity: 0 });
+  tl.to("#intro-text", { display: "none" });
   tl.to("#main", { display: "flex" });
   tl.to("#body1", { opacity: 1, duration: 1 });
   tl.to(".face", { opacity: 1, duration: 1.5 });
@@ -33,12 +34,14 @@ function animate() {
   );
   tl.to("#eye1", { transform: "rotate(-90deg)", x: -280, duration: 0.5 });
 
-  tl.to({}, 1, {});
-
-  tl.to(".mouth", { y: -280, duration: 1 });
-
-  tl.to({}, 1, {});
+  tl.to({}, 0.8, {});
   tl.to("#body4", { opacity: 1, duration: 0.5 });
+
+  tl.to(".mouth", { y: -230, duration: 1 });
+  tl.to(".nose", { y: 70, duration: 1 });
+
+  tl.to({}, 1, {});
+  tl.to("#author", { opacity: 1, duration: 0.5 });
 
   // lower opacity line by line
 }

@@ -8,6 +8,7 @@ h1 {
 
 body {
   font-family: "Yrsa", serif;
+  transition: all 300ms ease;
 }
 p {
   margin: 0px;
