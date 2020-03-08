@@ -36,13 +36,12 @@ h2 {
 .button {
   transition: 200ms ease all;
   background: #05111a;
-  width: 80px;
   color: white;
   font-family: "Yrsa", serif;
   font-size: 22px;
   display: flex;
   border-radius: 15px;
-  padding: 5px;
+  padding: 5px 18px;
   justify-content: center;
 }
 

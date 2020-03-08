@@ -8,7 +8,6 @@ h1 {
 
 body {
   font-family: "Yrsa", serif;
-  transition: all 300ms ease;
 }
 p {
   margin: 0px;
@@ -85,6 +84,7 @@ p {
   cursor: pointer;
   width: 150px;
   height: 150px;
+  margin: 0px 10px;
   background-image: url(img/eye-sprite.png);
   background-size: 1050px 150px;
 }

@@ -86,5 +86,8 @@ function displayMessage() {
     document.getElementById("text-2").innerHTML = "Correct";
     document.getElementById("subtext-2").innerHTML = "About time!";
     document.getElementById("button-2").innerHTML = "home";
+    document.getElementById("button-2").addEventListener("click", () => {
+      window.location.href = "index.html";
+    });
   }
 }

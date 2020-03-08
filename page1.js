@@ -11,16 +11,18 @@ function animate() {
   tl.to({}, 1, {});
 
   tl.from("#text1", { opacity: 0, duration: 0.5 });
-  tl.to({}, 0.8, {});
+  tl.to({}, 1.2, {});
   tl.to("#text1", { opacity: 0 });
 
   tl.to("#text1", { display: "none" });
   tl.to("#text2", { display: "block" });
 
   tl.from("#text2", { opacity: 0, duration: 0.5 });
+  tl.to({}, 2, {});
   tl.to("#text2", { opacity: 0, duration: 0, display: "none", duration: 0.5 });
 
-  tl.to(".face", { display: "block", opacity: 0 });
+  tl.to("body", { background: "black", color: "white", duration: 0.8 });
+  tl.to(".face", { display: "block", opacity: 0, filter: "invert(1)" });
   tl.to("#intro-text", { display: "none" });
   tl.to("#main", { display: "flex" });
   tl.to("#body1", { opacity: 1, duration: 1 });
